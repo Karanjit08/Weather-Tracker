@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temp Tracker</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Electrolize&family=Patrick+Hand&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="assets/meteorology.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/78d5d17bd8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="wrapper">
+
+        <div class="container">
+            <div class="title">
+                <h1>Weather Tracker</h1>
+            </div>
+            <div class="switchTabs">
+                <div class="your-weather">Your Weather</div>
+                <div class="search-weather">Search Weather</div>
+            </div>
+            <div class="weatherContent">
+                <div class="myWeatherContent">
+                    <div id="my-weather-loading"></div>
+                    <div class="current-city-name"></div>
+                    <div class="current-weather-type"></div>
+                    <div class="current-weather-type-img"></div>
+                    <div class="current-temp"></div>
+                    <div class="divison">
+                        <div class="current-wind-speed"></div>
+                        <div class="current-humidity"></div>
+                        <div class="current-weather-percentage"></div>
+                    </div>
+                </div>
+                <div class="searchWeatherContent">
+                    <div class="search-bar-field">
+                        <form>
+                            <input class="input-field" type="text" name="search" placeholder="Search for city ...">
+                          </form>
+                        <div class="search-btn">
+                            <i class="search-icon fa-solid fa-magnifying-glass"></i>
+                        </div>
+                    </div>
+                    <div class="searchWeatherData">
+                        <div id="city-weather-loading"></div>
+                        <div class="city-name"></div>
+                        <div class="city-weather-type"></div>
+                        <div class="city-weather-type-img"></div>
+                        <div class="city-temp"></div>
+                        <div class="division-search-city">
+                            <div class="city-wind-speed"></div>
+                            <div class="city-humidity"></div>
+                            <div class="city-weather-percentage"></div>
+                        </div>
+                        <div class="city-weather-not-found">
+                            <div class="city-not-found-text">City Not Found</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
