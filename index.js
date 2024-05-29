@@ -479,7 +479,7 @@ function renderCityWeatherData(dataWeather){
     let cityNameUi = document.createElement("p");
     cityNameUi.innerHTML = searchCityName;
     cityNameUi.style.color = 'white';
-    cityNameUi.style.fontSize = '2.2rem';
+    cityNameUi.style.fontSize = '2.21rem';
     cityNameElement.appendChild(cityNameUi);
 
 
